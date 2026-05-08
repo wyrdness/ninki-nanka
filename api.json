@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/ninki-nanka",
     "maintainers": [
       {
@@ -16,72 +16,121 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "ninki-nanka",
     "name": "Ninki Nanka",
-    "aliases": [],
-    "category": "CRYPTID",
-    "subcategory": "with Ninki Nanka",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Dragon", "language": "Mandinka (translation)", "meaning": "Per Mandinka tradition the name simply translates as 'dragon' or 'great serpent'" },
+      { "name": "Great Serpent", "language": "English (translation)" }
     ],
-    "status": "documented",
+    "category": "CRYPTID",
+    "subcategory": "Reptilian / dragon-like cryptid of West Africa",
+    "tags": [
+      "west-africa",
+      "gambia",
+      "senegal",
+      "dragon",
+      "river",
+      "swamp",
+      "cryptid",
+      "mandinka"
+    ],
+    "status": "active",
     "description": {
-      "summary": "The Ninki Nanka is a legendary dragon-like cryptid from West African folklore, particularly prominent in Gambian and Senegalese traditions.",
-      "full": "The Ninki Nanka is a legendary dragon-like cryptid from West African folklore, particularly prominent in Gambian and Senegalese traditions. Described as a massive serpentine creature inhabiting swamps, rivers, and mangrove forests, the Ninki Nanka occupies a unique position in Mandinka and broader West African mythology as both a guardian spirit and a deadly threat. According to traditional belief, merely seeing the creature brings death within weeks, making it one of West Africa's most feared supernatural entities. The Ninki Nanka represents the power and danger of untamed nature, serving as both a cultural warning against certain behaviors and a genuine cryptozoological mystery that has attracted scientific expeditions and continues to generate eyewitness reports in the 21st century."
+      "summary": "A dragon-like cryptid of West African folklore, particularly in the Gambia and Senegal, said to inhabit swamps and rivers and feared as a deadly omen. Investigated in 2006 by the Centre for Fortean Zoology.",
+      "full": "The Ninki Nanka ('dragon' or 'great serpent' in Mandinka) is a long-standing legendary creature of Gambian, Senegalese, and broader West African folklore, said to inhabit the swamps, rivers, and mangrove forests of the lower Gambia. Descriptions vary widely: some accounts give a crocodile-like head with a horse- or donkey-like body, others describe a giraffe-necked, three-horned beast roughly 30 feet (9 m) long with reflective scales and a fatal stare. Among the Mandinka, merely seeing the Ninki Nanka is said to bring death within weeks, making it one of West Africa's most feared supernatural figures. The creature occupies a dual role as both guardian spirit and deadly threat. In summer 2006 the Centre for Fortean Zoology mounted the J. T. Downes Memorial Gambia Expedition, led by Richard Freeman, to collect Gambian eyewitness testimony; no specimen was recovered, but the expedition documented a consistent body of recent sightings and was covered by the BBC."
     },
     "etymology": {
-      "origin": "West African (Gambia, Senegal)",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Mandinka (West Africa)",
+      "meaning": "Per Mandinka usage, simply 'dragon' or 'great serpent'",
+      "first_use": "Long-standing oral tradition of the Gambia and surrounding region; documented in writing from at least the 20th century"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "with Ninki Nanka",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Reptilian / dragon-like cryptid",
+      "subtype": "Aquatic-fluvial",
+      "variant": "West African (Gambia / Senegal)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "mokele-mbembe", "name": "Mokele-mbembe", "relationship": "similar", "description": "Central African aquatic cryptid said to inhabit the Congo Basin" },
+      { "id": "mamlambo", "name": "Mamlambo", "relationship": "similar", "description": "Southern African river cryptid of Zulu tradition" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["green", "scaled, sometimes reported as colour-shifting"],
+      "features": [
+        { "feature": "Reptilian / dragon-like body", "description": "Variously described as serpentine, crocodilian, or composite reptilian", "frequency": "always" },
+        { "feature": "Crocodile-like head", "description": "A common description across Gambian accounts", "frequency": "common" },
+        { "feature": "Long neck", "description": "Some reports describe a giraffe-like neck", "frequency": "occasional" },
+        { "feature": "Horns", "description": "Three horns reported in some accounts", "frequency": "occasional" },
+        { "feature": "Reflective scales", "description": "Scales said to allow camouflage / colour-shifting", "frequency": "occasional" },
+        { "feature": "Large size", "description": "Estimated up to ~30 feet (9 m) long in some accounts", "frequency": "common" }
+      ],
+      "morphology": "A composite reptilian creature: most often crocodile-headed with a long, sometimes serpentine body; some variants include a horse-like head, a giraffe-like neck, and horns."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Fatal stare", "description": "Tradition holds that merely seeing the creature brings death within weeks", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Camouflage / colour-shifting scales", "description": "Scales said to change colour to blend with surroundings", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Possible fire-breath", "description": "Some informants reported a creature that 'spits fire'", "frequency": "rare", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["swamps", "rivers", "mangrove forests", "creeks"],
+      "diet": "Carnivorous in folkloric accounts",
+      "patterns": [
+        "Inhabits remote, swampy waterways",
+        "Avoided by villagers who shun productive but 'Ninki Nanka' areas",
+        "Sightings clustered in rural Gambia and Senegal"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "West African (Gambia, Senegal)",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "West Africa, with the strongest concentration of accounts in the Gambia, Senegal, and surrounding Mandinka-speaking areas.",
+      "continents": ["Africa"],
+      "countries": ["The Gambia", "Senegal"],
+      "regions": ["Lower Gambia", "Senegambia"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Lower Gambia River",
+        "location": {
+          "description": "Swamps, mangroves, and creeks of the lower Gambia River",
+          "country": "The Gambia"
+        },
+        "notes": "Said by Gambian informants to be 'the most frightening spirit around the lower Gambia' and to keep residents away from fertile swamp and creek areas"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-colonial",
         "circa": true,
-        "source": "Traditional folklore"
+        "source": "Mandinka and Senegambian oral tradition"
       }
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "West African (Gambia, Senegal)",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Mandinka and broader Senegambian folklore, in which the Ninki Nanka stands among the most powerful and dangerous supernatural beings.",
+      "earliest_accounts": "Long-standing oral tradition; entered the written record through 20th-century travel and ethnographic writing.",
+      "folklore_connections": "Sits within a wider African tradition of large aquatic cryptids (e.g. Mokele-mbembe, Mamlambo)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "2006-07-01", "event": "Centre for Fortean Zoology launches the J. T. Downes Memorial Gambia Expedition, led by Richard Freeman, to investigate Ninki Nanka eyewitness reports", "significance": "First organised cryptozoological field investigation; produced documented eyewitness testimony and BBC coverage", "source": "Centre for Fortean Zoology / BBC News" }
+    ],
+    "modern_era": "The Ninki Nanka remains a living tradition in the Gambia and Senegal and continues to attract attention from cryptozoologists, journalists, and African folklorists. It appears prominently in 21st-century African and diaspora literature and television."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -89,38 +138,122 @@
       "disputed": 0,
       "debunked": 0
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "ninki-nanka-sighting-2006-cfz",
+        "name": "CFZ Gambia Expedition (2006)",
+        "date": { "value": "2006-07-01", "precision": "approximate" },
+        "location": {
+          "description": "Lower Gambia River and surrounding villages",
+          "country": "The Gambia"
+        },
+        "witnesses": { "count": 0, "types": ["Gambian villagers and elders interviewed by the expedition"], "credibility_factors": ["Documented expedition with named investigators", "BBC coverage"] },
+        "description": "The Centre for Fortean Zoology's J. T. Downes Memorial Gambia Expedition, led by Richard Freeman, conducted interviews and field investigation along the lower Gambia in summer 2006. Informants described the Ninki Nanka variously as a long-bodied reptile, a 'Chinese dragon'-like creature, and a winged fire-spitting serpent. No specimen, photograph, or physical trace was recovered.",
+        "credibility": { "rating": "low", "factors": ["Eyewitness testimony only", "No specimen, photograph, or physical trace"], "notes": "Notable as the first organised cryptozoological investigation of the Ninki Nanka." },
+        "sources": ["Centre for Fortean Zoology", "BBC News coverage"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "ninki-nanka-evidence-cfz",
+        "type": "expedition report",
+        "name": "CFZ Gambia Expedition documentation",
+        "date": "2006",
+        "description": "Field notes and eyewitness interviews collected by the Centre for Fortean Zoology during the J. T. Downes Memorial Gambia Expedition.",
+        "status": "unverified",
+        "analysis": "Eyewitness testimony only; no physical or photographic evidence collected.",
+        "source": "Centre for Fortean Zoology"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Guardian / dragon spirit",
+        "description": "Within Mandinka and Senegambian tradition the Ninki Nanka is a real, agentive spirit-being whose territory is dangerous to humans.",
+        "proponents": ["Mandinka and Senegambian oral tradition"],
+        "evidence_cited": ["Continuity of community accounts", "Avoidance practices around suspected habitat"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Surviving relict reptile (cryptozoological)",
+        "description": "Cryptozoologists including Richard Freeman have argued the Ninki Nanka could represent a surviving large reptile, possibly an undescribed monitor lizard or relict crocodilian / sauropod-like animal.",
+        "proponents": ["Richard Freeman", "Centre for Fortean Zoology"],
+        "evidence_cited": ["Consistency of eyewitness descriptions", "Continued oral tradition"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Misidentification and folklore",
+        "description": "Sightings are best explained as misidentification of large reptiles (Nile crocodile, monitor lizard, rock python) interpreted through a strong cultural template.",
+        "proponents": ["Mainstream zoological consensus"],
+        "evidence_cited": ["Absence of physical evidence after intensive investigation", "Known West African megafauna sufficient to explain reports"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Mandinka oral tradition of the Ninki Nanka as a deadly swamp-dwelling great serpent",
+        "Avoidance practices keeping people away from fertile swamps and creeks"
+      ],
+      "stories": [
+        "Accounts of villagers dying within weeks of seeing the creature",
+        "Modern Gambian eyewitness reports collected by the CFZ in 2006"
+      ],
+      "beliefs": "Ninki Nanka tradition functions as both folklore and active community belief in parts of the Gambia and Senegal."
+    },
+    "indigenous": {
+      "cultures": ["Mandinka", "Wolof", "Jola"],
+      "significance": "An integral part of Senegambian supernatural geography; reflects long-standing Mandinka knowledge of swamp and river ecosystems and their dangers.",
+      "sensitivity_note": "The Ninki Nanka is part of a living West African tradition. Cryptozoological framings should not displace local accounts or commercialise them.",
+      "respect_guidelines": "Cite Gambian and Senegalese sources directly; consult local cultural authorities before fieldwork or media production in the region."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Skin of the Sea — Natasha Bowen (2021)",
+        "Moon Witch, Spider King — Marlon James (2022)"
+      ],
+      "film_tv": [
+        "Destination Truth (Syfy)"
+      ],
       "games": [],
+      "music": [],
       "other": []
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Richard Freeman", "affiliation": "Centre for Fortean Zoology (CFZ)", "contribution": "Led the 2006 CFZ Gambia Expedition investigating Ninki Nanka eyewitness testimony", "period": "2006" }
+    ],
+    "organizations": [
+      { "name": "Centre for Fortean Zoology (CFZ)", "url": "https://www.cfz.org.uk", "focus": "Cryptozoology field investigation" }
+    ],
+    "ongoing_studies": "No ongoing field studies are known; the Ninki Nanka remains an active topic in cryptozoological and African folklore literature."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-ninki-nanka",
+      "type": "website",
+      "title": "Ninki Nanka",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ninki_Nanka",
+      "accessed": "2026-05-07"
+    }
+  ]
 }
